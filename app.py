@@ -41,4 +41,4 @@ def getworshiphour():
          return render_template('index.html',error = 'You are already registered')
     return render_template('index.html',success=True)
 
-app.run(port=3000)
+app.run()

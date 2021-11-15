@@ -1,0 +1,2 @@
+import mongoengine
+print(mongoengine.__version__)
